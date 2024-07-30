@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+
+body {
+  font-family: "Kalam", cursive;
+  background-color: #f8f9fa;
+}
+/* Navbar with Gradient and Stylish Design */
+.navbar {
+  background: rgb(246, 222, 233);
+  background: radial-gradient(
+    circle,
+    rgba(246, 222, 233, 1) 0%,
+    rgba(135, 179, 230, 1) 100%
+  );
+}
+
+.navbar-brand {
+  color: #1f0e83;
+  font-weight: bold;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.navbar-nav .nav-link {
+  color: #1d0a49;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 1px;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa;
+}
+
+.navbar-toggler {
+  border: 1px solid #ffffff;
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.c-img {
+  width: 100%;
+  height: 600px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+h2 {
+  color: #343a40;
+}
+
+.feature-icon {
+  font-size: 3rem;
+  color: #007bff;
+}
+
+.feature-heading {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #343a40;
+}
+
+.showcase-item {
+  background: rgb(246, 222, 233);
+  background: radial-gradient(
+    circle,
+    rgba(246, 222, 233, 1) 0%,
+    rgba(135, 179, 230, 1) 100%
+  );
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.showcase-item:hover {
+  transform: scale(1.05);
+}
+
+.testimonial {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(
+    circle,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(8, 14, 115, 1) 100%
+  );
+  text-align: center;
+  padding: 30px;
+}
+
+.testimonial img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.pricing-card {
+  background: rgb(193, 200, 238);
+  background: radial-gradient(
+    circle,
+    rgba(193, 200, 238, 1) 0%,
+    rgba(129, 136, 240, 1) 100%
+  );
+  border: 1px solid #e9ecef;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.pricing-card:hover {
+  transform: scale(1.05);
+}
+
+.contact-form {
+  max-width: 500px;
+  margin: auto;
+}
+
+.form-control {
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #0056b3;
+}
+
+footer {
+  background: rgb(246, 222, 233);
+  background: radial-gradient(
+    circle,
+    rgba(246, 222, 233, 1) 0%,
+    rgba(135, 179, 230, 1) 100%
+  );
+  color: black;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
